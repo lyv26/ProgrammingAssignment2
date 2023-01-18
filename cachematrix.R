@@ -7,10 +7,10 @@
 
 
 # The first function, `makeCacheMatrix` creates list containing functions to
-#   1.  set the value of the vector
-#   2.  get the value of the vector
-#   3.  set the value of the mean
-#   4.  get the value of the mean
+#   1.  set the elements of the matrix
+#   2.  get the elements of the matrix
+#   3.  set the elements of the inverse
+#   4.  get the elements of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
